@@ -1,0 +1,73 @@
+body {
+	font-family: cursive;
+}
+
+h1,
+h3 {
+	text-align: center;
+}
+
+.form {
+	width: 50%;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin-left: 10px;
+}
+
+input {
+	width: 90%;
+	height: 27px;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid rgb(8, 0, 0);
+	border-radius: 5px;
+	outline: none;
+}
+
+.radio {
+	width: 5%;
+	height: 15px;
+	border: 5px solid rgb(8, 0, 0);
+	outline: none;
+}
+
+textarea {
+	width: 90%;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid rgb(8, 0, 0);
+	border-radius: 5px;
+	outline: none;
+}
+
+span {
+	color: red;
+	font-family: monospace;
+	width: 90%;
+	height: 27px;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+button {
+	border-radius: 10px;
+	color: #fff;
+	margin-top: 18px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #0c0c0c;
+	border: none;
+	cursor: pointer;
+}
